@@ -31,9 +31,9 @@
 ## 4.Концептуальна ER-діаграма (Mermaid)
 ```mermaid
 erDiagram
-    USER ||--o{ BOOKING : "створює"
-    CAR ||--o{ BOOKING : "включає"
-    OFFICE ||--|{ CAR : "розміщує"
+    USER ||--o{ BOOKING : "creates"
+    CAR ||--o{ BOOKING : "contains"
+    OFFICE ||--|{ CAR : "places"
     USER {
         string user_id PK
         string full_name
@@ -60,4 +60,4 @@ erDiagram
         string end_date
         number total_price
     }
-    ```
+   ``` 
