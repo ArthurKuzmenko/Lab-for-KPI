@@ -5,7 +5,7 @@
 - **Помилка:** Вимога оплати згенерована без структури EARS.  
   *Виправлення:* коміт `feat(lab2): add EARS structured requirements`.
 - **Помилка:** Промокод позначено як include замість extend.  
-  *Виправлення:* коміт `feat(lab2): add mermaid use case diagram`.
+  *Виправлення:* коміт `feat(lab2): add plantuml use case diagram`.
 - **Помилка:** Вимоги мали зв'язок 1:1 зі сценаріями.  
   *Виправлення:* коміт `docs(lab2): add traceability matrix N:M`.
 **Ключове рішення — які альтернативи зважив і чому обрав цю (ADR):**
